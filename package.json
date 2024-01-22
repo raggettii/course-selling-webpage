@@ -1,0 +1,11 @@
+{
+  "name": "course-selling-webpage",
+  "version": "1.0.0",
+  "description": "Will have the following features\r -Admin and User and they can perform various operations \r -Admin can create courses and view all the courses \r -User can buy courses and viw the courses that he/she owns",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
