@@ -4,12 +4,17 @@
   "description": "Will have the following features\r -Admin and User and they can perform various operations \r -Admin can create courses and view all the courses \r -User can buy courses and viw the courses that he/she owns",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart":"nodemon index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
   }
 }
